@@ -294,6 +294,7 @@ public class CodegenConstants {
     public static final String IS_COOKIE_PARAM_EXT_NAME = PREFIX_IS + "cookie-param";
     public static final String IS_BODY_PARAM_EXT_NAME = PREFIX_IS + "body-param";
     public static final String IS_COLLECTION_FORMAT_MULTI_EXT_NAME = PREFIX_IS + "collection-format-multi";
+    public static final String IS_COLLECTION_FORMAT_DEEP_OBJECT_EXT_NAME = PREFIX_IS + "collection-deep-object";
 
     public static final String IS_BASIC_EXT_NAME = PREFIX_IS + "basic";
     public static final String IS_BEARER_EXT_NAME = PREFIX_IS + "bearer";

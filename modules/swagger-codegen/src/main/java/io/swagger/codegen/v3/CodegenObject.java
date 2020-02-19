@@ -132,6 +132,10 @@ public abstract class CodegenObject implements VendorExtendable {
         return getBooleanValue(CodegenConstants.IS_COLLECTION_FORMAT_MULTI_EXT_NAME);
     }
 
+    public Boolean getIsCollectionFormatDeepObject() {
+        return getBooleanValue(CodegenConstants.IS_COLLECTION_FORMAT_DEEP_OBJECT_EXT_NAME);
+    }
+
     public Boolean getHasMore() {
         return getBooleanValue(CodegenConstants.HAS_MORE_EXT_NAME);
     }
